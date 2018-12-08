@@ -19,7 +19,7 @@
 ## 安装cmake, 可以通过以下常用的集中方式来安装(需要打开终端工具)
 ### 通过brew 安装cmake(前提是已经安装过homebrew)
 ```bash
-YourHostName: YourWorkDir$ brew install cmake
+~$  brew install cmake
 ```
 ### 通过官网直接下载cmake可执行文件 ([点击直接下载可执行文件包](url: https://cmake.org/files/v3.10/cmake-3.10.2-Darwin-x86_64.dmg))
 
@@ -32,11 +32,11 @@ YourHostName: YourWorkDir$ brew install cmake
 2. 找到 Platform -> Unix/Linux Source (has \n line feeds) 后面的下载地址，将cmake源码包下载到本地
 3. 使用tar 工具解压 cmake 源码包
 ```bash
-YourHostName: YourWorkDir$ tar xzvf cmake-3.10.2.tar.gz
-YourHostName: YourWorkDir$ cd cmake-3.10.2
-YourHostName: YourWorkDir$ ./bootstrap --prefix=/usr/local
-YourHostName: YourWorkDir$ make
-YourHostName: YourWorkDir$ make install
+~$  tar xzvf cmake-3.10.2.tar.gz
+~$  cd cmake-3.10.2
+~$ ./bootstrap --prefix=/usr/local
+~$ make
+~$ make install
 ```
 其中的版本号可能不一样， 以及安装的目标路径也不同， 都是根据实际情况由调用者自己修改
 
