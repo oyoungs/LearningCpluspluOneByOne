@@ -21,13 +21,15 @@
 ```bash
 ~$  brew install cmake
 ```
-### 通过官网直接下载cmake可执行文件 ([点击直接下载可执行文件包](url: https://cmake.org/files/v3.10/cmake-3.10.2-Darwin-x86_64.dmg))
+### 通过官网直接下载cmake可执行文件 
+([点击直接下载可执行文件包](url: https://cmake.org/files/v3.10/cmake-3.10.2-Darwin-x86_64.dmg))
 
 1. 到官网下载cmake源码包, [下载链接](url: https://cmake.org/download/)
 2. 找到 Platform -> Mac OS X 10.7 or later 后面的下载地址，将cmake源码包下载到本地
 3. 使用tar 工具解压 cmake 源码包
 
-### 通过源码安装cmake ([点击直接下载源码包](url: https://cmake.org/files/v3.10/cmake-3.10.2.tar.gz))
+### 通过源码安装cmake 
+([点击直接下载源码包](url: https://cmake.org/files/v3.10/cmake-3.10.2.tar.gz))
 1. 到官网下载cmake源码包, [下载链接](url: https://cmake.org/download/)
 2. 找到 Platform -> Unix/Linux Source (has \n line feeds) 后面的下载地址，将cmake源码包下载到本地
 3. 使用tar 工具解压 cmake 源码包
